@@ -127,6 +127,11 @@ outputs:
         - hyperspy-gui-ipywidgets >=1.2
         - hyperspy-gui-traitsui >=1.2
         - matplotlib
+    test:
+      requires:
+        - pip
+      commands:
+        - pip check
 
   - name: hyperspy-dev
     requirements:
