@@ -9,7 +9,7 @@ source:
   #url: https://pypi.io/packages/source/h/hyperspy/hyperspy-{{ version }}.tar.gz
   url: https://github.com/ericpre/hyperspy/archive/v1.6.1.zip
   #sha256: f569c31d9910c0d38fa39164a79764847228e04a67fb49d697955e24b4e63392
-  sha256: 0ab196f7ed623a2b3db85e049adcdd409abc540705f8a58de796eec785b08f26
+  sha256: 72972560884b58a1784f67533a821fa1674110623e6f86f26e6aa5d6d6775d06
 
 build:
   number: 0
