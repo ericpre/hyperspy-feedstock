@@ -1,16 +1,18 @@
-{% set version = "1.6.0" %}
+{% set version = "1.6.1" %}
 
 package:
   name: hyperspy-meta
   version: {{ version }}
 
 source:
-  fn: hyperspy-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/h/hyperspy/hyperspy-{{ version }}.tar.gz
-  sha256: f569c31d9910c0d38fa39164a79764847228e04a67fb49d697955e24b4e63392
+  fn: hyperspy-{{ version }}.zip
+  #url: https://pypi.io/packages/source/h/hyperspy/hyperspy-{{ version }}.tar.gz
+  url: https://github.com/ericpre/hyperspy/archive/v1.6.1.zip
+  #sha256: f569c31d9910c0d38fa39164a79764847228e04a67fb49d697955e24b4e63392
+  sha256: 0ab196f7ed623a2b3db85e049adcdd409abc540705f8a58de796eec785b08f26
 
 build:
-  number: 2
+  number: 0
   skip: True  # [py2k]
 
 requirements:
@@ -32,7 +34,7 @@ outputs:
       run:
         - dask-core >2.0
         - dill
-        - h5py <3.0
+        - h5py
         - imageio
         - ipyparallel
         - ipython
@@ -53,7 +55,7 @@ outputs:
         - sparse
         - statsmodels
         - sympy
-        - tifffile >=2018.10.18,<2020.08.13
+        - tifffile >=2018.10.18
         - toolz
         - tqdm >=4.9.0
         - traits >=4.5
@@ -64,7 +66,6 @@ outputs:
         - pip
         - pytest
         - pytest-mpl
-        - dask-core >2.0,<2.3
       imports:
         - hyperspy
         - hyperspy.Release
