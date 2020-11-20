@@ -7,9 +7,9 @@ package:
 source:
   fn: hyperspy-{{ version }}.zip
   #url: https://pypi.io/packages/source/h/hyperspy/hyperspy-{{ version }}.tar.gz
-  url: https://github.com/ericpre/hyperspy/archive/v1.6.1.dev1.zip
+  url: https://github.com/ericpre/hyperspy/archive/v1.6.1.dev2.zip
   #sha256: f569c31d9910c0d38fa39164a79764847228e04a67fb49d697955e24b4e63392
-  sha256: 09563bc305c3dc45e4c7fea0c2bcf73a8400e8ef547dd47a073c6997779403ab
+  sha256: dd991e5272cfea952d0c44183a43cbd2860c9e327a25dfb5fbaeddb707598582
 
 build:
   number: 0
