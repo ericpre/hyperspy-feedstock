@@ -7,9 +7,9 @@ package:
 source:
   fn: hyperspy-{{ version }}.zip
   #url: https://pypi.io/packages/source/h/hyperspy/hyperspy-{{ version }}.tar.gz
-  url: https://github.com/ericpre/hyperspy/archive/v1.6.1.zip
+  url: https://github.com/ericpre/hyperspy/archive/v1.6.1.dev1.zip
   #sha256: f569c31d9910c0d38fa39164a79764847228e04a67fb49d697955e24b4e63392
-  sha256: 72972560884b58a1784f67533a821fa1674110623e6f86f26e6aa5d6d6775d06
+  sha256: 09563bc305c3dc45e4c7fea0c2bcf73a8400e8ef547dd47a073c6997779403ab
 
 build:
   number: 0
@@ -45,7 +45,7 @@ outputs:
         - numpy >1.13
         - pint >=0.10
         - pillow >5.2  # [win]
-        - ptable
+        - prettytable
         - python
         - python-dateutil >=2.5
         - pyyaml
