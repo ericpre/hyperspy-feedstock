@@ -59,6 +59,7 @@ outputs:
         - tifffile >=2019.12.3
         - tqdm >=4.9.0
         - traits >=4.5
+        - zarr
     test:
       requires:
         - pip
