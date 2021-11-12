@@ -6,8 +6,8 @@ package:
 
 source:
   fn: hyperspy-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/h/hyperspy/hyperspy-{{ version }}.tar.gz
-  sha256: 040d21c40e609d6c4b7b2c9e283a5ccf398450f5996a1dc2442d29e44e03793a
+  url: https://github.com/ericpre/hyperspy/archive/refs/heads/lazy_import.zip
+  sha256: 2159fd5ca2a31efbe43a1d5b161a9a833209ae8afd809c5a471199480de5fa39
 
 build:
   number: 0
