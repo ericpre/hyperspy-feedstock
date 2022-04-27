@@ -124,7 +124,7 @@ outputs:
   - name: hyperspy
     build:
       # We don't need it for ppc64le and it avoid running out of time on travis
-      skip: true  # [ppc64le]
+      skip: true  # [ppc64le or aarch64]
     requirements:
       host:
         - python
